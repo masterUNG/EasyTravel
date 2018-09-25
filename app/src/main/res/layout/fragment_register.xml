@@ -6,6 +6,7 @@
 
     <!--Toolbar-->
     <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarRegister"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -20,6 +21,9 @@
 
         <!--Name-->
         <EditText
+            android:id="@+id/edtName"
+            android:textSize="@dimen/h3"
+            android:background="@drawable/text_field_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name :"
@@ -27,6 +31,11 @@
 
         <!--User-->
         <EditText
+            android:id="@+id/edtUser"
+            android:layout_marginBottom="@dimen/m1"
+            android:layout_marginTop="@dimen/m1"
+            android:textSize="@dimen/h3"
+            android:background="@drawable/text_field_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="User :"
@@ -34,6 +43,9 @@
 
         <!--Password-->
         <EditText
+            android:id="@+id/edtPassword"
+            android:textSize="@dimen/h3"
+            android:background="@drawable/text_field_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password :"

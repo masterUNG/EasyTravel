@@ -19,6 +19,8 @@
 
         <!--User-->
         <EditText
+            android:textSize="@dimen/h3"
+            android:background="@drawable/text_field_user"
             android:inputType="text"
             android:hint="User :"
             android:layout_width="match_parent"
@@ -26,6 +28,9 @@
 
         <!--Password-->
         <EditText
+            android:layout_marginTop="@dimen/m1"
+            android:background="@drawable/text_field_password"
+            android:textSize="@dimen/h3"
             android:inputType="textPassword"
             android:hint="Password :"
             android:layout_width="match_parent"
@@ -33,6 +38,8 @@
 
         <!--Login-->
         <Button
+            android:layout_marginTop="@dimen/m1"
+            android:background="@drawable/bg_button"
             android:text="Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
